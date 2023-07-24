@@ -1,0 +1,21 @@
+version: '3'
+
+networks:
+  test-network:
+    driver: bridge
+
+services:
+  chrome:
+    image: selenium/standalone-chrome
+    shm_size: 2gb
+    ports:
+      - "4444:4444"
+      - "7900:7900"
+    networks:
+      - test-network
+  tests:
+    build: .
+    depends_on:
+      - chrome
+    networks:
+      - test-network

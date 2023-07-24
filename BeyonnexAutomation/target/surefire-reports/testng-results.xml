@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-23T18:58:12 CEST" name="Surefire suite" finished-at="2023-07-23T18:58:33 CEST" duration-ms="20494">
+    <groups>
+    </groups>
+    <test started-at="2023-07-23T18:58:12 CEST" name="Surefire test" finished-at="2023-07-23T18:58:33 CEST" duration-ms="20494">
+      <class name="Tests.WeatherShopperTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Tests.WeatherShopperTest@667a738]" started-at="2023-07-23T18:58:12 CEST" name="setUp" finished-at="2023-07-23T18:58:17 CEST" duration-ms="5126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SelectProductTest()[pri:0, instance:Tests.WeatherShopperTest@667a738]" started-at="2023-07-23T18:58:17 CEST" name="SelectProductTest" finished-at="2023-07-23T18:58:20 CEST" duration-ms="2492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectProductTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.WeatherShopperTest@667a738]" started-at="2023-07-23T18:58:20 CEST" name="getResult" finished-at="2023-07-23T18:58:21 CEST" duration-ms="666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectProductTest status=SUCCESS method=WeatherShopperTest.SelectProductTest()[pri:0, instance:Tests.WeatherShopperTest@667a738] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="SelectLeastPrice()[pri:1, instance:Tests.WeatherShopperTest@667a738]" started-at="2023-07-23T18:58:21 CEST" name="SelectLeastPrice" finished-at="2023-07-23T18:58:23 CEST" duration-ms="1944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectLeastPrice -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.WeatherShopperTest@667a738]" started-at="2023-07-23T18:58:23 CEST" name="getResult" finished-at="2023-07-23T18:58:24 CEST" duration-ms="1001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectLeastPrice status=SUCCESS method=WeatherShopperTest.SelectLeastPrice()[pri:1, instance:Tests.WeatherShopperTest@667a738] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CheckoutTest()[pri:2, instance:Tests.WeatherShopperTest@667a738]" started-at="2023-07-23T18:58:24 CEST" name="CheckoutTest" finished-at="2023-07-23T18:58:32 CEST" duration-ms="7581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckoutTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.WeatherShopperTest@667a738]" started-at="2023-07-23T18:58:32 CEST" name="getResult" finished-at="2023-07-23T18:58:33 CEST" duration-ms="320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckoutTest status=SUCCESS method=WeatherShopperTest.CheckoutTest()[pri:2, instance:Tests.WeatherShopperTest@667a738] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.WeatherShopperTest@667a738]" started-at="2023-07-23T18:58:33 CEST" name="teardown" finished-at="2023-07-23T18:58:33 CEST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.WeatherShopperTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

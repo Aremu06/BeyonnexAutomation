@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="BeyonnexAutomation_Parallel_Suite">
+    <test thread-count="1" parallel="tests" name="ChromeTest">
+        <parameter name="BrowserName" value="Chrome" />
+        <classes>
+            <class name="Tests.WeatherShopperTest"/>
+        </classes>
+    </test> <!-- ChromeTest -->
+
+    <test thread-count="1" parallel="tests" name="FirefoxTest">
+        <parameter name="BrowserName" value="FireFox" />
+        <classes>
+            <class name="Tests.WeatherShopperTest"/>
+        </classes>
+    </test>
+
+
+</suite>
